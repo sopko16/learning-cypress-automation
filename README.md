@@ -4,7 +4,7 @@ Attempting to run this tutorial: https://www.tutorialspoint.com/cypress/cypress_
 
 ## Steps:
 1. Download Node on Windows, use default steps.
-2. Set Environment Variables > System Variables > New, name "NODE_PATH" with value "C:\Program Files\nodejs
+2. Set Environment Variables > System Variables > New, name "NODE_PATH" with value "C:\Program Files\nodejs"
 
 3. Run:
 ```
@@ -26,7 +26,7 @@ node_modules/.bin/cypress verify
 7. Then re-run:
 ```
 node_modules/.bin/cypress open
-``
+```
 
 ------------------
 
