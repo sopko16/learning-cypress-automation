@@ -51,4 +51,5 @@ node_modules/.bin/cypress run ./cypress/e2e/spec.cy.js
 because basically the ToS automation will probably be making  each action like "opening a limit order", "market order", closing all, etc. as individual "describe" tests, then calling them all from Python long-running program.
 
 ### And I think something like this will need to be used for config of params, EX "Market order for X shares?", "What will the limit price be", etc. 
+https://stackoverflow.com/questions/67403526/how-to-pass-values-from-command-line-to-cypress-spec-file
 IE will need to dynamically pass some things to these spec/"scripts" to allow for dynamic inputs to the ToS Automation...
